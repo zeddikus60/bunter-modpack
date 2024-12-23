@@ -1,0 +1,1305 @@
+- Id: 18 #Hades
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 134
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 19 #Cerberus
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 300
+  MinDamage: 50
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 20 #Hydra
+  Level: 0
+  Health:
+  - 1050
+  MaxDamage: 286
+  MinDamage: 48
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 22 #Dark Thorn
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 300
+  MinDamage: 50
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 23 #Shadow Stalker
+  Level: 0
+  Health:
+  - 450
+  MaxDamage: 667
+  MinDamage: 112
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 100
+  Prize: 0
+  BonusLevel: 0
+- Id: 24 #Possessor (Thresholder)
+  Level: 0
+  Health:
+  - 250
+  MaxDamage: 1200
+  MinDamage: 200
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 25 #Storm Rider
+  Level: 0
+  Health:
+  - 1600
+  - 100
+  - 100
+  MaxDamage: 125
+  MinDamage: 32
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 26 #OC Pete
+  Level: 0
+  Health:
+  - 600
+  MaxDamage: 500
+  MinDamage: 84
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 71 #Shan Yu
+  Level: 0
+  Health:
+  - 1300
+  MaxDamage: 231
+  MinDamage: 39
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 73 #Beast
+  Level: 0
+  Health:
+  - 400
+  MaxDamage: 10000
+  MinDamage: 100
+  PhysicalWeakness: 100
+  FireWeakness: 100
+  IceWeakness: 100
+  ThunderWeakness: 100
+  DarkWeakness: 100
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 74 #Thresholder
+  Level: 0
+  Health:
+  - 350
+  MaxDamage: 858
+  MinDamage: 143
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 25
+  Prize: 0
+  BonusLevel: 0
+- Id: 75 #Oogie Boogie
+  Level: 0
+  Health:
+  - 650
+  MaxDamage: 385
+  MinDamage: 77
+  PhysicalWeakness: 100
+  FireWeakness: 25
+  IceWeakness: 25
+  ThunderWeakness: 25
+  DarkWeakness: 25
+  LightWeakness: 25
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 78 #Axel II
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 200
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 79 #Boat Pete Crate
+  Level: 0
+  Health:
+  - 700
+  MaxDamage: 429
+  MinDamage: 72
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 86 #Twilight Thorn
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 200
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 87 #Xaldin
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 134
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 88 #Demyx
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 134
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 100
+  IceWeakness: 0
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 89 #Luxord, omitted from original code
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 100
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 90 #Xemnas I
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 100
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 91 #Hyena
+  Level: 0
+  Health:
+  - 500
+  MaxDamage: 500
+  MinDamage: 100
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 100
+  Prize: 0
+  BonusLevel: 0
+- Id: 94 #Scar
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 167
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 95 #Groundshaker
+  Level: 0
+  Health:
+  - 1600
+  MaxDamage: 125
+  MinDamage: 32
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 98 #Illuminator
+  Level: 0
+  Health:
+  - 50
+  MaxDamage: 5000
+  MinDamage: 1000
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 25
+  Prize: 0
+  BonusLevel: 0
+- Id: 99 #Barbossa
+  Level: 0
+  Health:
+  - 1200
+  MaxDamage: 209
+  MinDamage: 42
+  PhysicalWeakness: 100
+  FireWeakness: 75
+  IceWeakness: 75
+  ThunderWeakness: 75
+  DarkWeakness: 75
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 100 #Sark
+  Level: 0
+  Health:
+  - 500
+  MaxDamage: 300
+  MinDamage: 100
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 102 #Hydra Head
+  Level: 0
+  Health:
+  - 160
+  MaxDamage: 1875
+  MinDamage: 313
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 25
+  Prize: 0
+  BonusLevel: 0
+- Id: 106 #Hostile Program
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 134
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 113 #Past Pete
+  Level: 0
+  Health:
+  - 250
+  MaxDamage: 1200
+  MinDamage: 200
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 300
+  Prize: 0
+  BonusLevel: 0
+- Id: 114 #Giant Sark
+  Level: 0
+  Health:
+  - 250
+  - 50
+  - 50
+  MaxDamage: 600
+  MinDamage: 200
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 25
+  Prize: 0
+  BonusLevel: 0
+- Id: 119 #Prison Keeper
+  Level: 0
+  Health:
+  - 1878
+  MaxDamage: 125
+  MinDamage: 25
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 120 #The Experiment
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 134
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 122 #Volcanic Lord
+  Level: 0
+  Health:
+  - 800
+  MaxDamage: 313
+  MinDamage: 63
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 100
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 123 #Blizzard Lord
+  Level: 0
+  Health:
+  - 800
+  MaxDamage: 313
+  MinDamage: 63
+  PhysicalWeakness: 100
+  FireWeakness: 100
+  IceWeakness: 0
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 124 #Grim Reaper II
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 200
+  MinDamage: 50
+  PhysicalWeakness: 100
+  FireWeakness: 75
+  IceWeakness: 75
+  ThunderWeakness: 75
+  DarkWeakness: 75
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 128 #Pete II, ommitted from original code
+  Level: 0
+  Health:
+  - 1600
+  MaxDamage: 188
+  MinDamage: 32
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 130 #Riku
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 200
+  MinDamage: 50
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 133 #Xigbar
+  Level: 0
+  Health:
+  - 1300
+  MaxDamage: 115
+  MinDamage: 39
+  PhysicalWeakness: 100
+  FireWeakness: 25
+  IceWeakness: 25
+  ThunderWeakness: 25
+  DarkWeakness: 25
+  LightWeakness: 25
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 134 #Saix
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 100
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 138 #Genie Jafar
+  Level: 0
+  Health:
+  - 1000
+  - 110
+  - 60
+  - 60
+  MaxDamage: 200
+  MinDamage: 50
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 140 #Sephiroth
+  Level: 0
+  Health:
+  - 1878
+  MaxDamage: 75
+  MinDamage: 25
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 0
+  ThunderWeakness: 0
+  DarkWeakness: 0
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 141 #MCP
+  Level: 0
+  Health:
+  - 500
+  MaxDamage: 2000
+  MinDamage: 500
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 148 #Axel I
+  Level: 0
+  Health:
+  - 500
+  MaxDamage: 600
+  MinDamage: 100
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 100
+  Prize: 0
+  BonusLevel: 0
+#- Id: 153 Engine Core, uncommented in original code
+#  Level: 0
+#  Health:
+#  - 1000
+#  MaxDamage: 625
+#  MinDamage: 50
+#  PhysicalWeakness: 100
+#  FireWeakness: 50
+#  IceWeakness: 50
+#  ThunderWeakness: 50
+#  DarkWeakness: 50
+#  LightWeakness: 100
+#  GeneralWeakness: 100
+#  Experience: 1000
+#  Prize: 0
+#  BonusLevel: 0
+- Id: 154 #Grim Reaper I
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 200
+  MinDamage: 50
+  PhysicalWeakness: 100
+  FireWeakness: 75
+  IceWeakness: 75
+  ThunderWeakness: 75
+  DarkWeakness: 75
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 160 #Armor Xemnas I
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 625
+  MinDamage: 50
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 177 #Hades (Cups), ommitted from original code
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 417
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 178 #Hercules, ommitted from original code
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 417
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 179 #Pete (Cups), ommitted from original code
+  Level: 0
+  Health:
+  - 1600
+  MaxDamage: 391
+  MinDamage: 32
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 180 #Leon (Pain and Panic), ommitted from original code
+  Level: 0
+  Health:
+  - 1200
+  MaxDamage: 893
+  MinDamage: 72
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 150
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 181 #Cloud (Hades Paradox 25),  ommitted from original code
+  Level: 0
+  Health:
+  - 1350
+  MaxDamage: 782
+  MinDamage: 63
+  PhysicalWeakness: 100
+  FireWeakness: 150
+  IceWeakness: 50
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 182 #Tifa (Hades Paradox 10), ommitted from original code
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 1042
+  MinDamage: 84
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 150
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 183 #Yuffie (Pain and Panic), ommitted from original code
+  Level: 0
+  Health:
+  - 850
+  MaxDamage: 1250
+  MinDamage: 100
+  PhysicalWeakness: 150
+  FireWeakness: 0
+  IceWeakness: 0
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 184 #Leon (Pain and Panic Paradox), ommitted from original code
+  Level: 0
+  Health:
+  - 1200
+  MaxDamage: 893
+  MinDamage: 72
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 150
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 185 #Cloud (Hades Paradox 40),  ommitted from original code
+  Level: 0
+  Health:
+  - 1350
+  MaxDamage: 782
+  MinDamage: 63
+  PhysicalWeakness: 100
+  FireWeakness: 150
+  IceWeakness: 50
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 186 #Tifa (Hades Paradox 25), ommitted from original code
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 1042
+  MinDamage: 84
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 150
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 187 #Yuffie (Pain and Panic Paradox), ommitted from original code
+  Level: 0
+  Health:
+  - 850
+  MaxDamage: 1250
+  MinDamage: 100
+  PhysicalWeakness: 150
+  FireWeakness: 0
+  IceWeakness: 0
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 188 #Leon (Hades Paradox 40), ommitted from original code
+  Level: 0
+  Health:
+  - 1200
+  MaxDamage: 893
+  MinDamage: 72
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 150
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 189 #Cloud (Hades Paradox 49),  ommitted from original code
+  Level: 0
+  Health:
+  - 1350
+  MaxDamage: 782
+  MinDamage: 63
+  PhysicalWeakness: 100
+  FireWeakness: 150
+  IceWeakness: 50
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 190 #Tifa (Hades Paradox 49), ommitted from original code
+  Level: 0
+  Health:
+  - 1250
+  MaxDamage: 1042
+  MinDamage: 84
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 150
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 191 #Yuffie (Hades Paradox 10), ommitted from original code
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 1250
+  MinDamage: 100
+  PhysicalWeakness: 150
+  FireWeakness: 0
+  IceWeakness: 0
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 192 #Leon (Hades Paradox 49), ommitted from original code
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 893
+  MinDamage: 72
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 150
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 195 #Yuffie (Hades Paradox 49), ommitted from original code
+  Level: 0
+  Health:
+  - 1000
+  MaxDamage: 1250
+  MinDamage: 100
+  PhysicalWeakness: 150
+  FireWeakness: 0
+  IceWeakness: 0
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 196 #Hades (Paradox), ommitted from original code
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 417
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 197 #Volcanic Lord (Hades Paradox), ommitted from original code
+  Level: 0
+  Health:
+  - 1200
+  MaxDamage: 521
+  MinDamage: 42
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 100
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 198 #Blizzard Lord (Hades Paradox), ommitted from original code
+  Level: 0
+  Health:
+  - 1200
+  MaxDamage: 521
+  MinDamage: 42
+  PhysicalWeakness: 100
+  FireWeakness: 100
+  IceWeakness: 0
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 500
+  Prize: 0
+  BonusLevel: 0
+- Id: 199 #Cerberus (Cups), ommitted from original code
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 417
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 200 #Vexen
+  Level: 0
+  Health:
+  - 1500
+  - 100
+  MaxDamage: 100
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 150
+  IceWeakness: 25
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 213 #Roxas
+  Level: 0
+  Health:
+  - 1300
+  MaxDamage: 154
+  MinDamage: 39
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 214 #Lexaeus
+  Level: 0
+  Health:
+  - 1878
+  MaxDamage: 79
+  MinDamage: 26
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 215 #Marluxia
+  Level: 0
+  Health:
+  - 1878
+  MaxDamage: 79
+  MinDamage: 26
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 216 #Larxene
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 100
+  MinDamage: 34
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 217 #Zexion
+  Level: 0
+  Health:
+  - 1200
+  MaxDamage: 125
+  MinDamage: 42
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 0
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 1000
+  Prize: 0
+  BonusLevel: 0
+- Id: 239 #Data Xemnas
+  Level: 0
+  Health:
+  - 1878
+  MaxDamage: 79
+  MinDamage: 26
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 0
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0
+- Id: 240 #Data Demyx
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 100
+  MinDamage: 34
+  PhysicalWeakness: 50
+  FireWeakness: 150
+  IceWeakness: 0
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 50
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0
+- Id: 242 #Data Roxas
+  Level: 0
+  Health:
+  - 1750
+  MaxDamage: 86
+  MinDamage: 28
+  PhysicalWeakness: 100
+  FireWeakness: 25
+  IceWeakness: 25
+  ThunderWeakness: 25
+  DarkWeakness: 25
+  LightWeakness: 25
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0
+- Id: 243 #Data Luxord
+  Level: 0
+  Health:
+  - 1500
+  MaxDamage: 100
+  MinDamage: 34
+  PhysicalWeakness: 30
+  FireWeakness: 15
+  IceWeakness: 15
+  ThunderWeakness: 15
+  DarkWeakness: 15
+  LightWeakness: 30
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0
+- Id: 244 #Terra
+  Level: 0
+  Health:
+  - 1878
+  - 50
+  MaxDamage: 79
+  MinDamage: 26
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0
+- Id: 245 #Data Axel
+  Level: 0
+  Health:
+  - 1878
+  MaxDamage: 79
+  MinDamage: 26
+  PhysicalWeakness: 100
+  FireWeakness: 0
+  IceWeakness: 100
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0
+- Id: 246 #Data Xaldin
+  Level: 0
+  Health:
+  - 1878
+  MaxDamage: 79
+  MinDamage: 26
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0
+- Id: 252 #Data Xigbar
+  Level: 0
+  Health:
+  - 1600
+  MaxDamage: 107
+  MinDamage: 32
+  PhysicalWeakness: 100
+  FireWeakness: 25
+  IceWeakness: 25
+  ThunderWeakness: 25
+  DarkWeakness: 25
+  LightWeakness: 25
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0
+- Id: 253 #Data Saix
+  Level: 0
+  Health:
+  - 1878
+  MaxDamage: 79
+  MinDamage: 26
+  PhysicalWeakness: 100
+  FireWeakness: 50
+  IceWeakness: 50
+  ThunderWeakness: 50
+  DarkWeakness: 50
+  LightWeakness: 100
+  GeneralWeakness: 100
+  Experience: 2500
+  Prize: 0
+  BonusLevel: 0

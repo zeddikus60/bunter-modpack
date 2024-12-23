@@ -1,0 +1,298 @@
+title: Bunter Modpack Beta
+description: Goes ABOVE the GoA and seed. Includes - 1234567890num's PS2 Duck Flare | 1234567890num's Better Boss Scaling | Kayya's Remove OC Pete Timer | DA's Dark Thorn Menu | Sonicshadowsilver2's Cutscene Skipper | Sonicshadowsilver2's Remove Swarm | GhostTheBoo's Accurate Growth Text | Geek's Custom AntiCheese | Geek's Drive Adjustments | Zeddikus' EXP Boss only (with help from codename_geek)| kareking1's Boss Gives EXP (with edits by Zeddikus).
+assets:
+# Lua Scripts
+- name: scripts/2fmRemoveSwarm.lua
+  method: copy
+  source:
+  - name: 2fmRemoveSwarm.lua
+- name: scripts/CustomAntiCheeseBE.lua
+  method: copy
+  source:
+  - name: CustomAntiCheeseBE.lua
+- name: scripts/CutsceneSkipper.lua
+  method: copy
+  source:
+  - name: CutsceneSkipper.lua
+- name: scripts/AccurateGrowthText.lua
+  method: copy
+  source:
+  - name: AccurateGrowthText.lua
+- name: scripts/DrivesChanges.lua
+  method: copy
+  source:
+  - name: DrivesChanges.lua
+- name: scripts/NoEXP.lua
+  method: copy
+  source:
+  - name: NoEXP.lua
+- name: scripts/OCPete.lua
+  method: copy
+  source:
+  - name: OCPete.lua
+- name: scripts/F266B00B GoA ROM.lua
+  method: copy
+  source:
+  - name: F266B00B GoA ROM.lua
+# PS2 Duck Flare
+- name: limit/us/donald2.bar
+  method: copy
+  source:
+  - name: limit/fm/donald2.bar
+    type: internal
+- name: limit/us/donald2_wi.bar
+  method: copy
+  source:
+  - name: limit/fm/donald2_wi.bar
+    type: internal
+- name: remastered/limit/us/donald2.bar/US_donald2_bar0.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2.bar/US_donald2_bar0.dds
+    type: internal
+- name: remastered/limit/us/donald2.bar/US_donald2_bar1.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2.bar/US_donald2_bar1.dds
+    type: internal
+- name: remastered/limit/us/donald2.bar/US_donald2_bar2.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2.bar/US_donald2_bar2.dds
+    type: internal
+- name: remastered/limit/us/donald2.bar/US_donald2_bar3.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2.bar/US_donald2_bar3.dds
+    type: internal
+- name: remastered/limit/us/donald2.bar/US_donald2_bar4.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2.bar/US_donald2_bar4.dds
+    type: internal
+- name: remastered/limit/us/donald2.bar/US_donald2_bar5.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2.bar/US_donald2_bar5.dds
+    type: internal
+- name: remastered/limit/us/donald2.bar/US_donald2_bar6.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2.bar/US_donald2_bar6.dds
+    type: internal
+- name: remastered/limit/us/donald2.bar/US_donald2_bar7.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2.bar/US_donald2_bar7.dds
+    type: internal
+- name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar0.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar0.dds
+    type: internal
+- name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar1.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar1.dds
+    type: internal
+- name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar2.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar2.dds
+    type: internal
+- name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar3.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar3.dds
+    type: internal
+- name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar4.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar4.dds
+    type: internal
+- name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar5.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar5.dds
+    type: internal
+- name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar6.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar6.dds
+    type: internal
+- name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar7.dds
+  method: copy
+  source:
+  - name: remastered/limit/us/donald2_wi.bar/US_donald2_wi_bar7.dds
+    type: internal
+  #Better Boss Scaling Various Stuff
+#- name: 00battle.bin
+#  method: binarc
+#  source:
+#  - name: enmp #Halve MCP's HP & Remove Terra and Datas' Fixed Levels
+#    type: list
+#    method: copy
+#    source:
+#    - name: Enmp.bin
+- name: ard/he03.ard
+  multi:
+  - name: ard/us/he03.ard
+  - name: ard/fr/he03.ard
+  - name: ard/gr/he03.ard
+  - name: ard/it/he03.ard
+  - name: ard/sp/he03.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he03/btl.script
+- name: ard/he05.ard
+  multi:
+  - name: ard/us/he05.ard
+  - name: ard/fr/he05.ard
+  - name: ard/gr/he05.ard
+  - name: ard/it/he05.ard
+  - name: ard/sp/he05.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he05/btl.script
+- name: ard/he06.ard
+  multi:
+  - name: ard/us/he06.ard
+  - name: ard/fr/he06.ard
+  - name: ard/gr/he06.ard
+  - name: ard/it/he06.ard
+  - name: ard/sp/he06.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he06/btl.script
+- name: ard/he07.ard
+  multi:
+  - name: ard/us/he07.ard
+  - name: ard/fr/he07.ard
+  - name: ard/gr/he07.ard
+  - name: ard/it/he07.ard
+  - name: ard/sp/he07.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he07/btl.script
+- name: ard/he10.ard
+  multi:
+  - name: ard/us/he10.ard
+  - name: ard/fr/he10.ard
+  - name: ard/gr/he10.ard
+  - name: ard/it/he10.ard
+  - name: ard/sp/he10.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he10/btl.script
+- name: ard/he11.ard
+  multi:
+  - name: ard/us/he11.ard
+  - name: ard/fr/he11.ard
+  - name: ard/gr/he11.ard
+  - name: ard/it/he11.ard
+  - name: ard/sp/he11.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he11/btl.script
+- name: ard/he15.ard
+  multi:
+  - name: ard/us/he15.ard
+  - name: ard/fr/he15.ard
+  - name: ard/gr/he15.ard
+  - name: ard/it/he15.ard
+  - name: ard/sp/he15.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he15/btl.script
+- name: ard/he16.ard
+  multi:
+  - name: ard/us/he16.ard
+  - name: ard/fr/he16.ard
+  - name: ard/gr/he16.ard
+  - name: ard/it/he16.ard
+  - name: ard/sp/he16.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he16/btl.script
+- name: ard/he17.ard
+  multi:
+  - name: ard/us/he17.ard
+  - name: ard/fr/he17.ard
+  - name: ard/gr/he17.ard
+  - name: ard/it/he17.ard
+  - name: ard/sp/he17.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he17/btl.script
+- name: ard/bb05.ard #Ballroom (Party Menu after Shadow Stalker)
+  multi:
+  - name: ard/jp/bb05.ard
+  - name: ard/us/bb05.ard
+  - name: ard/fr/bb05.ard
+  - name: ard/gr/bb05.ard
+  - name: ard/it/bb05.ard
+  - name: ard/sp/bb05.ard
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/bb05/evt.script
+#Remove OC Pete timer
+- name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  multi:
+  - name: remastered/msn/fr/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  - name: remastered/msn/gr/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  - name: remastered/msn/it/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  - name: remastered/msn/sp/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  method: copy
+  source:
+  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+#Boss Gives EXP
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: enmp
+    type: list
+    method: listpatch
+    source:
+    - name: EnmpList.yml
+      type: enmp
