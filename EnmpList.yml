@@ -11,7 +11,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 19 #Cerberus
@@ -125,7 +125,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 71 #Shan Yu
@@ -157,7 +157,7 @@
   DarkWeakness: 100
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 74 #Thresholder
@@ -253,7 +253,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 88 #Demyx
@@ -269,7 +269,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 89 #Luxord, omitted from original code
@@ -285,7 +285,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 90 #Xemnas I
@@ -301,7 +301,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 91 #Hyena
@@ -397,7 +397,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 102 #Hydra Head
@@ -445,7 +445,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 300
+  Experience: 250
   Prize: 0
   BonusLevel: 0
 - Id: 114 #Giant Sark
@@ -511,7 +511,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 123 #Blizzard Lord
@@ -527,7 +527,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 124 #Grim Reaper II
@@ -543,7 +543,7 @@
   DarkWeakness: 75
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 128 #Pete II, ommitted from original code
@@ -575,7 +575,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 133 #Xigbar
@@ -591,7 +591,7 @@
   DarkWeakness: 25
   LightWeakness: 25
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 134 #Saix
@@ -607,7 +607,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 138 #Genie Jafar
@@ -642,7 +642,7 @@
   DarkWeakness: 0
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1750
   Prize: 0
   BonusLevel: 0
 - Id: 141 #MCP
@@ -674,7 +674,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 100
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 #- Id: 153 Engine Core, uncommented in original code
@@ -706,7 +706,7 @@
   DarkWeakness: 75
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 160 #Armor Xemnas I
@@ -738,7 +738,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 178 #Hercules, ommitted from original code
@@ -770,7 +770,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 180 #Leon (Pain and Panic), ommitted from original code
@@ -786,7 +786,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 181 #Cloud (Hades Paradox 25),  ommitted from original code
@@ -802,7 +802,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 182 #Tifa (Hades Paradox 10), ommitted from original code
@@ -818,7 +818,7 @@
   DarkWeakness: 50
   LightWeakness: 150
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 183 #Yuffie (Pain and Panic), ommitted from original code
@@ -834,7 +834,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 184 #Leon (Pain and Panic Paradox), ommitted from original code
@@ -850,7 +850,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 185 #Cloud (Hades Paradox 40),  ommitted from original code
@@ -866,7 +866,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 186 #Tifa (Hades Paradox 25), ommitted from original code
@@ -882,7 +882,7 @@
   DarkWeakness: 50
   LightWeakness: 150
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 187 #Yuffie (Pain and Panic Paradox), ommitted from original code
@@ -898,7 +898,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 188 #Leon (Hades Paradox 40), ommitted from original code
@@ -914,7 +914,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 189 #Cloud (Hades Paradox 49),  ommitted from original code
@@ -930,7 +930,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 1000
   Prize: 0
   BonusLevel: 0
 - Id: 190 #Tifa (Hades Paradox 49), ommitted from original code
@@ -946,7 +946,7 @@
   DarkWeakness: 50
   LightWeakness: 150
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 1000
   Prize: 0
   BonusLevel: 0
 - Id: 191 #Yuffie (Hades Paradox 10), ommitted from original code
@@ -962,7 +962,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 192 #Leon (Hades Paradox 49), ommitted from original code
@@ -978,7 +978,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 1000
   Prize: 0
   BonusLevel: 0
 - Id: 195 #Yuffie (Hades Paradox 49), ommitted from original code
@@ -994,7 +994,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 1000
   Prize: 0
   BonusLevel: 0
 - Id: 196 #Hades (Paradox), ommitted from original code
@@ -1026,7 +1026,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 198 #Blizzard Lord (Hades Paradox), ommitted from original code
@@ -1042,7 +1042,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 500
+  Experience: 750
   Prize: 0
   BonusLevel: 0
 - Id: 199 #Cerberus (Cups), ommitted from original code
@@ -1075,7 +1075,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 213 #Roxas
@@ -1107,7 +1107,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 215 #Marluxia
@@ -1123,7 +1123,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 216 #Larxene
@@ -1139,7 +1139,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 217 #Zexion
@@ -1155,7 +1155,7 @@
   DarkWeakness: 0
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 1000
+  Experience: 1250
   Prize: 0
   BonusLevel: 0
 - Id: 239 #Data Xemnas
@@ -1171,7 +1171,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 1500
   Prize: 0
   BonusLevel: 0
 - Id: 240 #Data Demyx
@@ -1187,7 +1187,7 @@
   DarkWeakness: 50
   LightWeakness: 50
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 1500
   Prize: 0
   BonusLevel: 0
 - Id: 242 #Data Roxas
@@ -1203,7 +1203,7 @@
   DarkWeakness: 25
   LightWeakness: 25
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 1500
   Prize: 0
   BonusLevel: 0
 - Id: 243 #Data Luxord
@@ -1219,7 +1219,7 @@
   DarkWeakness: 15
   LightWeakness: 30
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 1500
   Prize: 0
   BonusLevel: 0
 - Id: 244 #Terra
@@ -1236,7 +1236,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 2000
   Prize: 0
   BonusLevel: 0
 - Id: 245 #Data Axel
@@ -1252,7 +1252,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 1500
   Prize: 0
   BonusLevel: 0
 - Id: 246 #Data Xaldin
@@ -1268,7 +1268,7 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 1500
   Prize: 0
   BonusLevel: 0
 - Id: 252 #Data Xigbar
@@ -1284,7 +1284,7 @@
   DarkWeakness: 25
   LightWeakness: 25
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 1500
   Prize: 0
   BonusLevel: 0
 - Id: 253 #Data Saix
@@ -1300,6 +1300,6 @@
   DarkWeakness: 50
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 2500
+  Experience: 1500
   Prize: 0
   BonusLevel: 0

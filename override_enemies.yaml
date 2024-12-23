@@ -1941,7 +1941,7 @@ Demyx (Data):
   aimods: 
   - name: B_EX120_HB_LV99/b_ex.bdscript
     type: obj
-  enabled: false
+  enabled: true
   variationof: Demyx
   enmp_index: 0xF0
   hp: 100
