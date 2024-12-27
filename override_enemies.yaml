@@ -1622,7 +1622,7 @@ Cerberus:
   level: 99
   limiter: 0
   model: B_HE020
-  msn_replace_allowed: false
+  msn_replace_allowed: true #was true before Bunter Update 2.6
   obj_id: 351
   size: 3.2
   type: boss
@@ -1631,8 +1631,6 @@ Cerberus:
   blacklist_destination:
   - Oogie Boogie
   - The Beast
-  blacklist_source:
-  - Sephiroth
   variations:
     Cerberus:
       roomData:
@@ -1668,7 +1666,7 @@ Cerberus:
       # - program: 190
       #   msn: HE_COL_2_10
       #   room_size: 6.19
-      msn_replace_allowed: false
+      # msn_replace_allowed: false
       vars:
       - 1
       - 0
@@ -1697,6 +1695,7 @@ Cloud:
   - Hercules
   blacklist_source:
   - Zexion
+  - Marluxia
   - Twilight Thorn
   - Larxene
   - Jafar
@@ -1819,6 +1818,7 @@ Crimson Jazz:
       - 1
       - 0
     Crimson Jazz (Zipliner):
+      enabled: false
       vars:
       - 20
       - 0
@@ -2393,6 +2393,7 @@ Fat Bandit:
       - 1
       - 0
     Fat Bandit (Passive):
+      enabled: false
       vars:
       - 0
       - 1
@@ -2477,7 +2478,7 @@ Final Xemnas:
   limiter: 0
   model: B_EX170_LAST
   msn: EH20_MS113
-  msn_replace_allowed: false
+  msn_replace_allowed: true #was false before Bunter update 2.6
   msn_dest_as: WI03_MS104
   program: 74
   size: 6.29
@@ -2522,6 +2523,7 @@ Fortuneteller:
       - 0
       - 0
     Fortuneteller (Zipliner):
+      enabled: false
       vars:
       - 20
       - 0
@@ -2897,7 +2899,7 @@ Hades II:
   level: 99
   limiter: 0
   model: B_HE030
-  msn_replace_allowed: false # Because of cups....
+  msn_replace_allowed: false
   roommaxsize: 13 # just a random guess
   obj_id: 350
   replace_as: Hades Cups
@@ -3022,7 +3024,7 @@ Hercules:
   level: 99
   limiter: 17
   model: N_HE010_BTL_CLSM
-  msn_replace_allowed: false
+  msn_replace_allowed: true #was false before Bunter update 2.6
   obj_id: 2320
   size: 2.48
   type: boss
@@ -3039,7 +3041,6 @@ Hercules:
   - Leon
   - Tifa
   - Yuffie
-  - Hercules
   blacklist_source:
   - Jafar
   - Storm Rider
@@ -3050,7 +3051,6 @@ Hercules:
   - Leon
   - Tifa
   - Yuffie
-  - Hercules
   tags:
   - cant_invuln
   variations:
@@ -3060,6 +3060,7 @@ Hercules:
         bossY: 0
         bossZ: 0
       enabled: true
+      msn_replace_allowed: true #was false before Bunter update 2.6
       msn_list:
       - program: 171
         msn: HE18_MS108
@@ -3079,6 +3080,7 @@ Hook Bat:
   type: enemy
   variations:
     Hook Bat (20 0):
+      enabled: false
       vars:
       - 20
       - 0
@@ -3234,7 +3236,7 @@ Hot Rod WI:
   obj_id: 1831
   size: 871428
   tags:
-  - large
+  - largeF
   type: enemy
   variations:
     Hot Rod WI:
@@ -3260,6 +3262,7 @@ Hydra:
   level: 99
   limiter: 0
   model: B_HE100
+  msn_replace_allowed: true
   unchanged_file_size: true
   pc:
     unchanged_file_size: false
@@ -3293,6 +3296,7 @@ Hydra:
   variations:
     Hydra:
       story_level: 16
+      msn_replace_allowed: true #was false before Bunter update 2.6
       mickey_source: true
       vars:
       - 0
@@ -3876,6 +3880,7 @@ Marluxia:
   - Jafar
   - Final Xemnas
   - Cloud
+  - Xaldin
   enabled: true
   enmp_index: 0xD7
   hp: 100
@@ -4167,7 +4172,7 @@ Pete OC II:
   model: N_EX760_BTL_HERCULES
   msn: HE08_MS107
   #replace_as: Pete Cups # Causes crash when Pete does a finger gun to the sky (directing nonexistent enemies?)
-  msn_replace_allowed: false
+  msn_replace_allowed: true #was false before Bunter update 2.6
   obj_id: 1724
   size: 1.57
   variationof: Pete TR
@@ -4211,7 +4216,7 @@ Pete TR:
   pc: 
     source_replace_allowed: true # TODO supposedly demyx super crashes here on ps2 and most bosses cause crashes here
   source_replace_allowed: false
-  msn_replace_allowed: false # This is due soley to Pete OC II
+  msn_replace_allowed: true #was false before Bunter update 2.6
   hp: 100
   gimmick_source:
   - Hostile Program
@@ -4573,6 +4578,7 @@ Rapid Thruster:
   type: enemy
   variations:
     Rapid Thruster (Zipliner):
+      enabled: false
       vars:
       - 20
       - 0
@@ -4722,7 +4728,6 @@ Riku:
   - Shadow Stalker
   - Marluxia 
   - Roxas
-  - Sephiroth
   gimmick_source:
   - Hostile Program
   - Xemnas
@@ -4735,7 +4740,7 @@ Riku:
   limiter: 0
   model: N_EX940_BTL
   msn: MU07_MS201
-  msn_replace_allowed: false
+  msn_replace_allowed: true #was false before Bunter update 2.6
   obj_id: 1596
   size: 1.22
   program: 76
@@ -5078,13 +5083,8 @@ Sephiroth:
   - Oogie Boogie
   - Scar
   - The Beast
-  - Final Xemnas
-  - Hades II
   - Cloud
   - Jafar
-  - Pete TR
-  - Pete OC II
-  - Cerberus
   variations:
     Sephiroth:
       vars:
@@ -5838,8 +5838,8 @@ Tifa:
   - Yuffie
   - Hercules
   limiter: 0
-  model: N_HB570_BTL2
-  msn_replace_allowed: false
+  model: N_HB570_BTL2Herc
+  msn_replace_allowed: true #was false before Bunter update 2.6
   msn_source_as: "WI03_MS104"
   obj_id: 2298
   pc: 
@@ -6328,7 +6328,7 @@ Yuffie:
   - Hercules
   limiter: 0
   model: N_HB580_BTL2
-  msn_replace_allowed: false
+  msn_replace_allowed: true #was false before Bunter update 2.6
   obj_id: 2299
   pc: 
     tags: 

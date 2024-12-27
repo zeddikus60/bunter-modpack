@@ -17775,6 +17775,18 @@ Space Paranoids:
           - index: 3
             isboss: true
             name: Sark
+          - index: 5
+            isboss: false
+            name: Strafer
+          - index: 6
+            isboss: false
+            name: Strafer
+          - index: 7
+            isboss: false
+            name: Strafer
+          - index: 8
+            isboss: false
+            name: Strafer
       b_61:
         size: 0
         sp_ids:
@@ -17843,7 +17855,6 @@ Space Paranoids:
             name: Devastator
       b_40:
         size: 0
-        ignored: true
         aimods:
         - name: NA
           type: enemymod
