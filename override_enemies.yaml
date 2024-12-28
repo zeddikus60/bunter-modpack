@@ -3053,6 +3053,7 @@ Hercules:
   - Tifa
   - Yuffie
   - Hercules
+  - Lexaeus
   tags:
   - cant_invuln
   variations:
@@ -3673,6 +3674,8 @@ Lexaeus:
   - Leon
   - Twilight Thorn
   - Grim Reaper II
+  - Hydra
+  - Hercules
   variations:
     Lexaeus:
       vars:
