@@ -2478,7 +2478,7 @@ Final Xemnas:
   limiter: 0
   model: B_EX170_LAST
   msn: EH20_MS113
-  msn_replace_allowed: false
+  msn_replace_allowed: false 
   msn_dest_as: WI03_MS104
   program: 74
   size: 6.29
@@ -3082,7 +3082,6 @@ Hook Bat:
   type: enemy
   variations:
     Hook Bat (20 0):
-      enabled: false
       vars:
       - 20
       - 0
@@ -4271,6 +4270,7 @@ Pete TR:
   - Storm Rider
   - Shadow Stalker
   - Xigbar
+  - Vexen
   level: 99
   limiter: 20
   model: N_EX760_BTL
@@ -4742,7 +4742,7 @@ Riku:
   limiter: 0
   model: N_EX940_BTL
   msn: MU07_MS201
-  msn_replace_allowed: true #was false before Bunter update 2.6
+  msn_replace_allowed: false 
   obj_id: 1596
   size: 1.22
   program: 76
@@ -5998,6 +5998,7 @@ Vexen:
   - Axel I
   - Hades II
   - Twilight Thorn
+  - Pete OC II
   enabled: true
   enmp_index: 0xC8
   hp: 100
@@ -6219,6 +6220,7 @@ Xemnas:
   - Riku
   - Twilight Thorn
   - Prison Keeper
+  - Grim Reaper II
   can_be_enemy: false
   enabled: true
   enmp_index: 90 #  Final Xemnas has same ENMP index so it's problematic to scale Xemnas
@@ -6439,6 +6441,7 @@ Zexion:
   - Yuffie
   - Final Xemnas
   - Barbossa
+  - Grim Reaper II
   variations:
     Zexion:
       program: 151
