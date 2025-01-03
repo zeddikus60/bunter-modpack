@@ -1511,7 +1511,6 @@ Blizzard Lord:
   - Sephiroth # Too hard in multi boss fights
   - Terra # Too hard in multi boss fights
   - Twilight Thorn
-  - Roxas # crashes a lot
   - Larxene
   - Marluxia
   - Axel II
@@ -1526,6 +1525,7 @@ Blizzard Lord:
   - Shadow Stalker
   - Hydra
   - Storm Rider
+  - Final Xemnas
   tags:
   - large
   type: boss
@@ -2445,7 +2445,6 @@ Final Xemnas:
   - name: B_EX170_LAST/b_ex.bdscript
     type: obj
   blacklist_destination:
-  - Volcano Lord
   - Blizzard Lord
   - Leon
   - Yuffie
@@ -2696,14 +2695,11 @@ Grim Reaper II:
   blacklist_destination:
   - Dark Thorn # medals get lost on ground
   - Shadow Stalker # medals get lost on ground
-  - The Experiment
   - Axel I
   - Hercules
   - Seifer
   - Twilight Thorn
-  - Leon
   - Armor Xemnas I # medals can get lost
-  - Armor Xemnas II
   - Barbossa # medals can get lost
   - Grim Reaper I
   - Oogie Boogie
@@ -2714,6 +2710,10 @@ Grim Reaper II:
   - Seifer
   - Thresholder
   - Final Xemnas # UI Doesn't show up?
+  - The Experiment
+  - Leon
+  - Twilight Thorn 
+  - Armor Xemnas II
   limiter: 0
   model: B_CA050
   obj_id: 1543
@@ -3578,53 +3578,53 @@ Leon:
   - cant_invuln
   variations:
     Leon:
-      story_level: 37
+      story_level: 2
       roomData:
-        bossX: 589.9752197265625
-        bossY: -1.9969710111618042
-        bossZ: -541.83251953125
-      program: 54
-      msn: CA01_MS204
-      room_size: 12.12
+        bossX: 0
+        bossY: 0
+        bossZ: 800
+      program: 157
+      msn: TT34_MS304
+      room_size: 3.93
       room_sizemultiplier: 1
       vars:
       - 1
       - 0
     Leon (1):
-      story_level: 37
+      story_level: 2
       roomData:
-        bossX: 589.9752197265625
-        bossY: -1.9969710111618042
-        bossZ: -541.83251953125
-      program: 54
-      msn: CA01_MS204
-      room_size: 12.12
+        bossX: 0
+        bossY: 0
+        bossZ: 800
+      program: 157
+      msn: TT34_MS304
+      room_size: 3.93
       room_sizemultiplier: 1
       vars:
       - 3
       - 0
     Leon (2):
-      story_level: 37
+      story_level: 2
       roomData:
-        bossX: 589.9752197265625
-        bossY: -1.9969710111618042
-        bossZ: -541.83251953125
-      program: 54
-      msn: CA01_MS204
-      room_size: 12.12
+        bossX: 0
+        bossY: 0
+        bossZ: 800
+      program: 157
+      msn: TT34_MS304
+      room_size: 3.93
       room_sizemultiplier: 1
       vars:
       - 4
       - 0
     Leon (3):
-      story_level: 37
+      story_level: 2
       roomData:
-        bossX: 589.9752197265625
-        bossY: -1.9969710111618042
-        bossZ: -541.83251953125
-      program: 54
-      msn: CA01_MS204
-      room_size: 12.12
+        bossX: 0
+        bossY: 0
+        bossZ: 800
+      program: 157
+      msn: TT34_MS304
+      room_size: 3.93
       room_sizemultiplier: 1
       vars:
       - 2
@@ -4779,8 +4779,6 @@ Roxas:
   - Vexen
   - Jafar
   - Cloud
-  - Tifa
-  - Shadow Stalker
   - Prison Keeper
   can_be_enemy: false #expensive
   enabled: true
@@ -6104,9 +6102,7 @@ Volcano Lord:
   - Sephiroth # Too hard in multi boss fights
   - Terra # Too hard in multi boss fights
   - Twilight Thorn
-  - Roxas # crashes a lot
   - Hydra
-  - Larxene
   - Marluxia
   - Cloud
   - Tifa

@@ -34,6 +34,12 @@ assets:
   method: copy
   source:
   - name: F266B00B GoA ROM.lua
+#Moose
+- name: dll/KH2Moose.dll
+  method: copy
+  platform: pc
+  source:
+  - name: KH2Moose.dll
 # PS2 Duck Flare
 - name: limit/us/donald2.bar
   method: copy
