@@ -1511,7 +1511,6 @@ Blizzard Lord:
   - Sephiroth # Too hard in multi boss fights
   - Terra # Too hard in multi boss fights
   - Twilight Thorn
-  - Larxene
   - Marluxia
   - Axel II
   - Xigbar
@@ -2446,6 +2445,7 @@ Final Xemnas:
     type: obj
   blacklist_destination:
   - Blizzard Lord
+  - Volcano Lord
   - Leon
   - Yuffie
   - Tifa
@@ -3529,7 +3529,6 @@ Leon:
   - Storm Rider
   - Shadow Stalker
   - Hydra
-  - Grim Reaper II
   - Cloud
   - Leon
   - Tifa
@@ -3576,6 +3575,7 @@ Leon:
   type: boss
   tags:
   - cant_invuln
+  - roxas
   variations:
     Leon:
       story_level: 2
@@ -4247,24 +4247,14 @@ Pete TR:
 
   blacklist_destination:
   - Cloud
-  - Tifa
   - Grim Reaper II
   - Leon
-  - Yuffie
   blacklist_source:
-  - Cloud
   - Grim Reaper II
-  - Hercules
   - Hydra
-  - Larxene
   - Leon
-  - Marluxia
-  - Roxas
   - Terra
-  - Tifa
   - Twilight Thorn
-  - Xaldin
-  - Yuffie
   - Zexion
   - Jafar
   - Storm Rider
@@ -5820,7 +5810,6 @@ Tifa:
   - Storm Rider
   - Shadow Stalker
   - Hydra
-  - Grim Reaper II
   - Cloud
   - Leon
   - Tifa
@@ -6113,6 +6102,7 @@ Volcano Lord:
   - Grim Reaper II
   - Shadow Stalker
   - Storm Rider
+  - Final Xemnas
   tags:
   - large
   type: boss

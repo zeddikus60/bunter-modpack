@@ -1,5 +1,5 @@
 title: Bunter Modpack Beta
-description: Goes ABOVE the GoA and seed. Includes - 1234567890num's PS2 Duck Flare | 1234567890num's Better Boss Scaling | Kayya's Remove OC Pete Timer | DA's Dark Thorn Menu | Sonicshadowsilver2's Cutscene Skipper | Sonicshadowsilver2's Remove Swarm | GhostTheBoo's Accurate Growth Text | Geek's Custom AntiCheese | Geek's Drive Adjustments | Zeddikus' EXP Boss only (with help from codename_geek)| kareking1's Boss Gives EXP (with edits by Zeddikus).
+description: Goes ABOVE the GoA and seed. Includes - Crazycatz00's Moose RAM Expansion | 1234567890num's PS2 Duck Flare | 1234567890num's Better Boss Scaling | DA's Dark Thorn Menu | Sonicshadowsilver2's Cutscene Skipper | Sonicshadowsilver2's Remove Swarm | GhostTheBoo's Accurate Growth Text | Geek's Custom AntiCheese | Geek's Drive Adjustments | Zeddikus' EXP Boss only (with help from codename_geek)| kareking1's Boss Gives EXP (with edits by Zeddikus).
 assets:
 # Lua Scripts
 - name: scripts/2fmRemoveSwarm.lua
@@ -29,11 +29,11 @@ assets:
 - name: scripts/OCPete.lua
   method: copy
   source:
-  - name: OCPete.lua
-- name: scripts/F266B00B GoA ROM.lua
-  method: copy
-  source:
-  - name: F266B00B GoA ROM.lua
+#  - name: OCPete.lua
+#- name: scripts/F266B00B GoA ROM.lua
+#  method: copy
+#  source:
+#  - name: F266B00B GoA ROM.lua
 #Moose
 - name: dll/KH2Moose.dll
   method: copy
@@ -282,16 +282,16 @@ assets:
     source:
     - name: ard/bb05/evt.script
 #Remove OC Pete timer
-- name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
-  multi:
-  - name: remastered/msn/fr/HE08_MS107.bar/US_HE08_MS107_bar0.png
-  - name: remastered/msn/gr/HE08_MS107.bar/US_HE08_MS107_bar0.png
-  - name: remastered/msn/it/HE08_MS107.bar/US_HE08_MS107_bar0.png
-  - name: remastered/msn/sp/HE08_MS107.bar/US_HE08_MS107_bar0.png
-  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
-  method: copy
-  source:
-  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+#- name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+#  multi:
+#  - name: remastered/msn/fr/HE08_MS107.bar/US_HE08_MS107_bar0.png
+#  - name: remastered/msn/gr/HE08_MS107.bar/US_HE08_MS107_bar0.png
+#  - name: remastered/msn/it/HE08_MS107.bar/US_HE08_MS107_bar0.png
+#  - name: remastered/msn/sp/HE08_MS107.bar/US_HE08_MS107_bar0.png
+#  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+#  method: copy
+#  source:
+#  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
 #Boss Gives EXP
 - name: 00battle.bin
   method: binarc
