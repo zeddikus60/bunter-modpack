@@ -26,14 +26,14 @@ assets:
   method: copy
   source:
   - name: NoEXP.lua
-- name: scripts/OCPete.lua
-  method: copy
-  source:
-#  - name: OCPete.lua
-#- name: scripts/F266B00B GoA ROM.lua
+#- name: scripts/OCPete.lua
 #  method: copy
 #  source:
-#  - name: F266B00B GoA ROM.lua
+#  - name: OCPete.lua
+- name: scripts/F266B00B GoA ROM.lua
+  method: copy
+  source:
+  - name: F266B00B GoA ROM.lua
 #Moose
 - name: dll/KH2Moose.dll
   method: copy
