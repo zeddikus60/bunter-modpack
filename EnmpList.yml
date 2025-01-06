@@ -648,9 +648,9 @@
 - Id: 141 #MCP
   Level: 0
   Health:
-  - 500
+  - 100
   MaxDamage: 2000
-  MinDamage: 500
+  MinDamage: 1000
   PhysicalWeakness: 100
   FireWeakness: 50
   IceWeakness: 50
