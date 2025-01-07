@@ -63,12 +63,12 @@
     "goofy_turbo_knockback_type": "Just Damage",
     "hint_system": "Spoiler",
     "hintable_checks": [
-        "magic",
-        "form",
-        "summon",
         "ability",
         "visit",
-        "proof"
+        "proof",
+        "magic",
+        "form",
+        "summon"
     ],
     "item_placement_difficulty": "Normal",
     "jack_skellington_blazing_fury_knockback_type": "Just Damage",
@@ -96,10 +96,6 @@
     "keyblade_max_stat": 8,
     "keyblade_min_stat": 5,
     "keyblade_support_abilities": [
-        "396",
-        "397",
-        "398",
-        "401",
         "541",
         "405",
         "406",
@@ -123,7 +119,11 @@
         "390",
         "391",
         "392",
-        "393"
+        "393",
+        "396",
+        "397",
+        "398",
+        "401"
     ],
     "keyblades_lock_chests": false,
     "limit_exp_curve": "DUSK",
@@ -178,7 +178,7 @@
     "pr_map_skip": true,
     "prevent_self_hinting": false,
     "progression_complete_bonus": 0,
-    "progression_hints": true,
+    "progression_hints": false,
     "progression_point_select": "9Rb0eCqL8A+TpmmEQAOjFoVwvKnISYgk1wVeyrsRdvJcMfQVciAtcfUXrKE4NSWWVzq6IUXrPuDhNm",
     "progression_points_reveal_end": false,
     "progression_report_bonus": 0,
@@ -192,7 +192,7 @@
     "remove_popups": false,
     "remove_wardrobe_animation": true,
     "report_depth": "FirstVisit",
-    "reports_reveal": "bossreports",
+    "reports_reveal": "Disabled",
     "retry_dark_thorn": true,
     "retry_data_final_xemnas": true,
     "reveal_complete": true,
@@ -222,13 +222,13 @@
     "skip_carpet_escape": true,
     "softlock_checking": "default",
     "sora_ap": 150,
-    "sora_ap_rate": 0,
-    "sora_defense_rate": 30,
+    "sora_ap_rate": 15,
+    "sora_defense_rate": 25,
     "sora_exp_curve": "DUSK",
     "sora_exp_multiplier": 1.5,
     "sora_levels": "Level",
-    "sora_magic_rate": 35,
-    "sora_strength_rate": 35,
+    "sora_magic_rate": 30,
+    "sora_strength_rate": 30,
     "split_levels": false,
     "spoiler_reveal_types": [
         "magic",
@@ -239,15 +239,15 @@
         "proof"
     ],
     "starting_abilities": [
+        "393",
+        "405",
+        "407",
+        "421",
         "404",
         "82",
         "138",
         "158",
-        "392",
-        "393",
-        "405",
-        "407",
-        "421"
+        "392"
     ],
     "starting_drives": [],
     "starting_inventory": [
@@ -261,12 +261,12 @@
         "524"
     ],
     "starting_items": [
-        "593",
-        "594",
-        "595",
         "537",
         "370",
-        "462"
+        "462",
+        "593",
+        "594",
+        "595"
     ],
     "starting_keyblades": [
         "42",

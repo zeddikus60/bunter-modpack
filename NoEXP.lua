@@ -106,6 +106,7 @@ function _OnFrame()
 		--DC/TR
 		(world == 0x0D and room == 0x01 and event == 0x3A) or
 		(world == 0x0D and room == 0x03 and event == 0x35) or
+		(world == 0x0C and room == 0x07 and event == 0x43) or
 		(world == 0x0C and room == 0x07 and event == 0x49) or
 		(world == 0x04 and room == 0x26 and event == 0x91) or
 		(world == 0x04 and room == 0x26 and event == 0x96) or

@@ -254,7 +254,7 @@ function RoomCheck()
 	else
 		noBerserk = true
 		noDoubleneg = true
-		noSingleneg = true
+		noSingleneg = false
 		noPan = false
 	end
 end
