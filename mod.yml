@@ -1,23 +1,11 @@
 title: Bunter Modpack Beta
-description: Goes ABOVE the GoA and seed. Includes - Crazycatz00's Moose RAM Expansion | 1234567890num's PS2 Duck Flare | 1234567890num's Better Boss Scaling | DA's Dark Thorn Menu | Sonicshadowsilver2's Cutscene Skipper | Sonicshadowsilver2's Remove Swarm | GhostTheBoo's Accurate Growth Text | Geek's Custom AntiCheese | Geek's Drive Adjustments | Zeddikus' EXP Boss only (with help from codename_geek)| kareking1's Boss Gives EXP (with edits by Zeddikus).
+description: REPLACE YOUR OVERRIDES EVERY TIME THERE'S AN UPDATE! Goes ABOVE the GoA and seed. Includes - Crazycatz00's Moose RAM Expansion | 1234567890num's PS2 Duck Flare | 1234567890num's Better Boss Scaling | DA's Dark Thorn Menu | Sonicshadowsilver2's Remove Swarm | Geek's Promise Charm edits | Geek's Custom AntiCheese | Geek's Drive Adjustments | Zeddikus' EXP Boss only (with help from codename_geek)| kareking1's Boss Gives EXP (with edits by Zeddikus).
 assets:
 # Lua Scripts
-- name: scripts/2fmRemoveSwarm.lua
-  method: copy
-  source:
-  - name: 2fmRemoveSwarm.lua
 - name: scripts/CustomAntiCheeseBE.lua
   method: copy
   source:
   - name: CustomAntiCheeseBE.lua
-- name: scripts/CutsceneSkipper.lua
-  method: copy
-  source:
-  - name: CutsceneSkipper.lua
-- name: scripts/AccurateGrowthText.lua
-  method: copy
-  source:
-  - name: AccurateGrowthText.lua
 - name: scripts/DrivesChanges.lua
   method: copy
   source:
@@ -26,10 +14,6 @@ assets:
   method: copy
   source:
   - name: NoEXP.lua
-#- name: scripts/OCPete.lua
-#  method: copy
-#  source:
-#  - name: OCPete.lua
 - name: scripts/F266B00B GoA ROM.lua
   method: copy
   source:
@@ -281,17 +265,6 @@ assets:
     method: areadatascript
     source:
     - name: ard/bb05/evt.script
-#Remove OC Pete timer
-#- name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
-#  multi:
-#  - name: remastered/msn/fr/HE08_MS107.bar/US_HE08_MS107_bar0.png
-#  - name: remastered/msn/gr/HE08_MS107.bar/US_HE08_MS107_bar0.png
-#  - name: remastered/msn/it/HE08_MS107.bar/US_HE08_MS107_bar0.png
-#  - name: remastered/msn/sp/HE08_MS107.bar/US_HE08_MS107_bar0.png
-#  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
-#  method: copy
-#  source:
-#  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
 #Boss Gives EXP
 - name: 00battle.bin
   method: binarc
@@ -302,3 +275,19 @@ assets:
     source:
     - name: EnmpList.yml
       type: enmp
+# Remove Swarm      
+- name: ard/mu07.ard 
+  multi: 
+  - name: ard/jp/mu07.ard
+  - name: ard/us/mu07.ard
+  - name: ard/fr/mu07.ard
+  - name: ard/gr/mu07.ard
+  - name: ard/it/mu07.ard
+  - name: ard/sp/mu07.ard
+  method: binarc
+  source:
+  - name: btl
+    type: AreaDataScript
+    method: areadatascript
+    source:
+    - name: ard/mu07btl.yml

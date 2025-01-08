@@ -10,6 +10,9 @@ GameVersion = 0
 print('GoA v1.54.1')
 GoAOffset = 0x7C
 SeedCleared = false
+lastInput1 = 0
+lastInput2 = 0
+lastWorld = 0
 end
 
 function GetVersion() --Define anchor addresses
@@ -96,6 +99,7 @@ elseif GAME_ID == 0x431219CC and ENGINE_TYPE == 'BACKEND' then --PC
 		Sys3 = ReadLong(Sys3Pointer)
 		Btl0 = ReadLong(Btl0Pointer)
 		MSN = 0x0BF2C40
+        inputAddr = 0x29FAD30
 	elseif ReadString(0x09A9830,4) == 'KH2J' then --Steam Global
 		GameVersion = 3
 		print('GoA Steam Global Version')
@@ -136,6 +140,7 @@ elseif GAME_ID == 0x431219CC and ENGINE_TYPE == 'BACKEND' then --PC
 		Sys3 = ReadLong(Sys3Pointer)
 		Btl0 = ReadLong(Btl0Pointer)
 		MSN = 0x0BF3340
+        inputAddr = 0xBF3120
 	elseif ReadString(0x09A8830,4) == 'KH2J' then --Steam JP
 		GameVersion = 4
 		print('GoA Steam JP Version')
@@ -176,6 +181,7 @@ elseif GAME_ID == 0x431219CC and ENGINE_TYPE == 'BACKEND' then --PC
 		Sys3 = ReadLong(Sys3Pointer)
 		Btl0 = ReadLong(Btl0Pointer)
 		MSN = 0x0BF2340
+        inputAddr = 0xBF2120
 	end
 end
 if GameVersion ~= 0 then
@@ -370,35 +376,94 @@ if Place == 0x1A04 then
 		WriteShort(BAR(ARD,0x05,0x25C),0x779,OnPC) --Radiant Garden
 	end
 end
+if ReadInt(inputAddr) ~= lastInput1 then
+	lastInput2 = lastInput1
+	lastInput1 = ReadInt(inputAddr)
+end
 --World Map -> Garden of Assemblage
 if Place == 0x000F then
 	local WarpDoor = false
 	if Door == 0x0C then --The World that Never Was
 		WarpDoor = 0x15
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35C1) == 1 then
+			WriteByte(Save+0x35C1,ReadByte(Save+0x35C1)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Way to the Dawn")
+		end
 	elseif Door == 0x03 then --Land of Dragons
 		WarpDoor = 0x16
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35AF) == 1 then
+			WriteByte(Save+0x35AF,ReadByte(Save+0x35AF)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Sword of the Ancestors")
+		end
 	elseif Door == 0x04 then --Beast's Castle
 		WarpDoor = 0x17
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35B3) == 1 then
+			WriteByte(Save+0x35B3,ReadByte(Save+0x35B3)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Beast's Claw")
+		end
 	elseif Door == 0x09 then --Halloween Town	
 		WarpDoor = 0x18
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35B4) == 1 then
+			WriteByte(Save+0x35B4,ReadByte(Save+0x35B4)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Bone Fist")
+		end
 	elseif Door == 0x0A then --Agrabah
 		WarpDoor = 0x19
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35C0) == 1 then
+			WriteByte(Save+0x35C0,ReadByte(Save+0x35C0)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Scimitar")
+		end
 	elseif Door == 0x05 then --Olympus Coliseum
 		WarpDoor = 0x1A
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35AE) == 1 then
+			WriteByte(Save+0x35AE,ReadByte(Save+0x35AE)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Battlefields of War")
+		end
 	elseif Door == 0x0B then --Pride Lands
 		WarpDoor = 0x1B
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35B5) == 1 then
+			WriteByte(Save+0x35B5,ReadByte(Save+0x35B5)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Proud Fang")
+		end
 	elseif Door == 0x01 then --Twilight Town
 		if ReadByte(Save+0x1CFF) == 8 then --Twilight Town
 			WarpDoor = 0x1C
+			if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x3649) < 3 then
+				WriteByte(Save+0x3649,ReadByte(Save+0x3649)+1)
+				WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+				print("Converted Promise Charm to Visit Unlock - Ice Cream")
+			end
 		elseif ReadByte(Save+0x1CFF) == 13 then --Simulated Twilight Town
 			WarpDoor = 0x21
 		end
 	elseif Door == 0x02 then --Hollow Bastion
 		WarpDoor = 0x1D
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x3643) == 1 then
+			WriteByte(Save+0x3643,ReadByte(Save+0x3643)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Membership Card")
+		end
 	elseif Door == 0x08 then --Port Royal
 		WarpDoor = 0x1E
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35B6) == 1 then
+			WriteByte(Save+0x35B6,ReadByte(Save+0x35B6)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Skill and Crossbones")
+		end
 	elseif Door == 0x06 then --Disney Castle
 		WarpDoor = 0x1F
+		if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x365D) == 1 then
+			WriteByte(Save+0x365D,ReadByte(Save+0x365D)+1)
+			WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+			print("Converted Promise Charm to Visit Unlock - Royal Summons")
+		end
 	elseif Door == 0x07 then --Atlantica
 		WarpDoor = 0x01
 	end
@@ -406,6 +471,20 @@ if Place == 0x000F then
 		Warp(0x04,0x1A,WarpDoor)
 	end
 end
+if World == 4 and (lastWorld == 17) then -- Space Paranoids
+	if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x35C2) == 1 then
+		WriteByte(Save+0x35C2,ReadByte(Save+0x35C2)+1)
+		WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+		print("Converted Promise Charm to Visit Unlock - Identity Disk")
+	end
+elseif World == 4 and (lastWorld == 9) then -- 100 Acre Wood
+	if (lastInput2 == 33557504 or lastInput1 == 0) and ReadByte(Save+0x3694) == 1 and (ReadByte(Save+0x3598) >= 1 or ReadByte(Save+0x3598) <= 4) then
+		WriteByte(Save+0x3598,ReadByte(Save+0x3598)+1)
+		WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
+		print("Converted Promise Charm to Visit Unlock - Torn Pages")
+    end
+end
+lastWorld = World
 --Visit Locks
 if true then
 	--Namine's Sketches

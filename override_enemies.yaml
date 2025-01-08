@@ -4718,6 +4718,7 @@ Riku:
   - Storm Rider
   - Shadow Stalker
   - Marluxia 
+  - Sephiroth
   - Roxas
   gimmick_source:
   - Hostile Program
@@ -4740,6 +4741,7 @@ Riku:
   variations:
     Riku:
       story_level: 35
+      msn: MU07_MS201
       vars:
       - 0
       - 0
@@ -5075,6 +5077,7 @@ Sephiroth:
   - Hades II
   - The Beast
   - Cloud
+  - Riku
   - Jafar
   variations:
     Sephiroth:
@@ -5649,17 +5652,15 @@ Terra:
   type: boss
   blacklist_destination:
   - Hostile Program # Report of getting stuck in bike loop
-  - Armor Xemnas II
   - Axel I
-  - Cerberus
   - Groundshaker
   - Hades II
   - Jafar
   - Oogie Boogie
-  - Scar
   - The Beast
   - Twilight Thorn
   - Axel II
+  - Riku
   - Cloud
   variations:
     Terra:
