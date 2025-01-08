@@ -10,10 +10,10 @@ assets:
   method: copy
   source:
   - name: DrivesChanges.lua
-- name: scripts/NoEXP.lua
-  method: copy
-  source:
-  - name: NoEXP.lua
+#- name: scripts/NoEXP.lua
+#  method: copy
+#  source:
+#  - name: NoEXP.lua
 - name: scripts/F266B00B GoA ROM.lua
   method: copy
   source:
