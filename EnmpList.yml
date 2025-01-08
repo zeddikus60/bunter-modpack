@@ -1581,7 +1581,7 @@
   DarkWeakness: 100
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 200
+  Experience: 0
   Prize: 0
   BonusLevel: 0
 - Id: 106 #Hostile Program
@@ -2242,7 +2242,7 @@
   DarkWeakness: 100
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 200
+  Experience: 0
   Prize: 0
   BonusLevel: 0
 - Id: 150 # Hayner
