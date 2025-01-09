@@ -1540,6 +1540,7 @@ Blizzard Lord:
       - 0
       - 0
     Blizzard Lord (Cups):
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
@@ -1651,7 +1652,7 @@ Cerberus:
         bossZ: -150
       # tags:
       # - cups
-      enabled: true
+      enabled: false
       program: 196
       # TODO This was working so maybe commenting the msn_list broke something but cups haven't had too much testing
       msn: HE_COL_2_10
@@ -1738,6 +1739,7 @@ Cloud:
       - 1
       - 0
     Cloud (1):
+      enabled: false
       roomData:
         bossX: 300
         bossY: -21450
@@ -1750,6 +1752,7 @@ Cloud:
       - 2
       - 0
     Cloud (2):
+      enabled: false
       roomData:
         bossX: 300
         bossY: -21450
@@ -2784,7 +2787,7 @@ Hades Cups:
   - cups
   - rc_blocked # Technically just Hades II but idk
   - needs_invuln
-  enabled: true
+  enabled: false
   enmp_index: 0xB1
   hp: 100
   level: 99
@@ -3590,6 +3593,7 @@ Leon:
       - 1
       - 0
     Leon (1):
+      enabled: false
       story_level: 2
       roomData:
         bossX: 0
@@ -3604,6 +3608,7 @@ Leon:
       - 0
     Leon (2):
       story_level: 2
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
@@ -3617,6 +3622,7 @@ Leon:
       - 0
     Leon (3):
       story_level: 2
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
@@ -4117,7 +4123,7 @@ Pete Cups:
     bossY: -0.0001509865978732705
     bossZ: -250
   can_be_enemy_override: true
-  enabled: true
+  enabled: false
   tags:
   - cups
   enmp_index: 0xB3
@@ -5856,6 +5862,7 @@ Tifa:
       - 1
       - 0
     Tifa (1):
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
@@ -5869,6 +5876,7 @@ Tifa:
       - 2
       - 0
     Tifa (2):
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
@@ -6120,6 +6128,7 @@ Volcano Lord:
       - 0
       - 0
     Volcano Lord (Cups):
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
@@ -6345,6 +6354,7 @@ Yuffie:
       - 1
       - 0
     Yuffie (1):
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
@@ -6358,6 +6368,7 @@ Yuffie:
       - 3
       - 0
     Yuffie (2):
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
@@ -6370,6 +6381,7 @@ Yuffie:
       - 4
       - 0
     Yuffie (3):
+      enabled: false
       roomData:
         bossX: 0
         bossY: 0
