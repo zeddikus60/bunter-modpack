@@ -445,7 +445,7 @@
   DarkWeakness: 0
   LightWeakness: 100
   GeneralWeakness: 100
-  Experience: 150
+  Experience: 0
   Prize: 0
   BonusLevel: 0
 - Id: 29 # Hercules (Ally)

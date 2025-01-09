@@ -11961,6 +11961,7 @@ Olympus Coliseum:
             name: Bulky Vendor
       b_a0:
         size: 0
+        ignored: true
         sp_ids:
           '392':
           - index: 0
@@ -12221,6 +12222,7 @@ Olympus Coliseum:
             name: Creeper Plant
       b_b0:
         size: 0
+        ignored: true
         sp_ids:
           '1232':
           - index: 0
@@ -12414,6 +12416,7 @@ Olympus Coliseum:
             name: Emerald Blues
       b_c0:
         size: 0
+        ignored: true
         sp_ids:
           '1343':
           - index: 0
@@ -12602,6 +12605,7 @@ Olympus Coliseum:
             name: Dancer
       b_d0:
         size: 0
+        ignored: true
         sp_ids:
           '1658':
           - index: 0
@@ -12794,6 +12798,7 @@ Olympus Coliseum:
             name: Hot Rod
       b_h0:
         size: 0
+        ignored: true
         sp_ids:
           '1850':
           - index: 0
@@ -12895,6 +12900,7 @@ Olympus Coliseum:
             name: Rabid Dog
       b_h5:
         size: 0
+        ignored: true
         sp_ids:
           '2011':
           - index: 0
@@ -13136,6 +13142,7 @@ Olympus Coliseum:
             name: Lance Soldier
       b_i5:
         size: 0
+        ignored: true
         sp_ids:
           '2341':
           - index: 0
@@ -13258,6 +13265,7 @@ Olympus Coliseum:
             name: Assassin
       b_j0:
         size: 0
+        ignored: true
         sp_ids:
           '2820':
           - index: 0
@@ -13344,6 +13352,7 @@ Olympus Coliseum:
             name: Bulky Vendor
       b_j5:
         size: 0
+        ignored: true
         sp_ids:
           '2948':
           - index: 0
@@ -13469,6 +13478,7 @@ Olympus Coliseum:
             name: Gambler
       b_k0:
         size: 0
+        ignored: true
         sp_ids:
           '4753':
           - index: 0
@@ -13809,6 +13819,7 @@ Olympus Coliseum:
             name: Crescendo
       b_l8:
         size: 0
+        ignored: true
         sp_ids:
           '5009':
           - index: 0
@@ -13816,6 +13827,7 @@ Olympus Coliseum:
             name: Cerberus (Cups)
       b_l9:
         size: 0
+        ignored: true
         sp_ids:
           '5073':
           - index: 0
@@ -13832,6 +13844,7 @@ Olympus Coliseum:
             name: Leon (2)
       b_r0:
         size: 0
+        ignored: true
         sp_ids:
           '5137':
           - index: 0
