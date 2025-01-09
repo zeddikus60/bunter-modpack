@@ -291,3 +291,24 @@ assets:
     method: areadatascript
     source:
     - name: ard/mu07btl.yml
+# Custom Starting Inventory
+- name: ard/tt32.ard
+  method: binarc
+  multi:
+  - name: ard/us/tt32.ard
+  - name: ard/fr/tt32.ard
+  - name: ard/gr/tt32.ard
+  - name: ard/it/tt32.ard
+  - name: ard/sp/tt32.ard
+  - name: ard/uk/tt32.ard
+  source:
+  - name: evt
+    method: areadatascript
+    type: areadatascript
+    source:
+    - name: starting_item_event.script
+  - name: starting_abilities
+    method: bdscript
+    type: Bdx
+    source:
+    - name: starting_inventory.bdscript
