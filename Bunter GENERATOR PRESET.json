@@ -93,8 +93,8 @@
         "275"
     ],
     "keyblade_action_abilities": [],
-    "keyblade_max_stat": 8,
-    "keyblade_min_stat": 5,
+    "keyblade_max_stat": 6,
+    "keyblade_min_stat": 3,
     "keyblade_support_abilities": [
         "541",
         "405",
@@ -227,8 +227,8 @@
     "sora_exp_curve": "DUSK",
     "sora_exp_multiplier": 1.5,
     "sora_levels": "Level",
-    "sora_magic_rate": 30,
-    "sora_strength_rate": 30,
+    "sora_magic_rate": 25,
+    "sora_strength_rate": 25,
     "split_levels": false,
     "spoiler_reveal_types": [
         "magic",
@@ -239,15 +239,15 @@
         "proof"
     ],
     "starting_abilities": [
+        "82",
+        "138",
+        "158",
+        "392",
         "393",
         "405",
         "407",
         "421",
-        "404",
-        "82",
-        "138",
-        "158",
-        "392"
+        "404"
     ],
     "starting_drives": [],
     "starting_inventory": [
@@ -261,12 +261,12 @@
         "524"
     ],
     "starting_items": [
-        "537",
-        "370",
-        "462",
         "593",
         "594",
-        "595"
+        "595",
+        "537",
+        "370",
+        "462"
     ],
     "starting_keyblades": [
         "42",
