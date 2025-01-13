@@ -2787,7 +2787,7 @@ Hades Cups:
   - cups
   - rc_blocked # Technically just Hades II but idk
   - needs_invuln
-  enabled: false
+  enabled: true
   enmp_index: 0xB1
   hp: 100
   level: 99
@@ -2915,6 +2915,7 @@ Hades II:
         bossY: -0.0001509865978732705
         bossZ: -450
       program: 196
+      enabled: true
       msn: HE_COL_8_50
       room_size: 9.14
       vars:

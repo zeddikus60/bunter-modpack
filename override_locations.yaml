@@ -11281,7 +11281,6 @@ Olympus Coliseum:
             isboss: false
             name: Dusk
       b_99:
-        ignored: true
         size: 0
         sp_ids:
           '27':
@@ -12605,7 +12604,6 @@ Olympus Coliseum:
             name: Dancer
       b_d0:
         size: 0
-        ignored: true
         sp_ids:
           '1658':
           - index: 0
@@ -13265,7 +13263,6 @@ Olympus Coliseum:
             name: Assassin
       b_j0:
         size: 0
-        ignored: true
         sp_ids:
           '2820':
           - index: 0
