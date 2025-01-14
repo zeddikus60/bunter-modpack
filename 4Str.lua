@@ -1,55 +1,46 @@
 --Updated for v1.0.0.9 Steam and Epic Global
+function _OnInit()
+    kh2libstatus, kh2lib = pcall(require, "kh2lib")
+    if not kh2libstatus then
+        print("ERROR (GoA): KH2-Lua-Library mod is not installed")
+        CanExecute = false
+        return
+    end
 
-local canExecute = false
+    CanExecute = kh2lib.CanExecute
+    if not CanExecute then
+        return
+    end
 
-function _OnFrame()
-	if canExecute == true then
-		World = ReadByte(Now + 0x00)
-		Room = ReadByte(Now + 0x01)
-		Place = ReadShort(Now + 0x00)
-		Door = ReadShort(Now + 0x02)
-		Map = ReadShort(Now + 0x04)
-		Btl = ReadShort(Now + 0x06)
-		Evt = ReadShort(Now + 0x08)
-		Cheats()
-	end
+	StaticPointersLoaded = false
+
+	Now = kh2lib.Now
+	Save = kh2lib.Save
+	Cntrl = kh2lib.Cntrl
+	Slot1 = kh2lib.Slot1
+	print('4STr Loaded')
 end
 
-function _OnInit()
-	if GAME_ID == 0x431219CC and ENGINE_TYPE == 'BACKEND' then --PC
-		canExecute = true
-		if ReadByte(0x566A8E) == 0xFF then --EGS Global
-			Platform = 'PC-Epic'
-			Now = 0x0716DF8
-			Save = 0x09A92F0
-			Obj0Pointer = 0x2A24A70
-			Sys3Pointer = 0x2AE5890
-			Btl0Pointer = 0x2AE5898
-			Cntrl = 0x2A16C28
-			Obj0 = ReadLong(Obj0Pointer)
-			Sys3 = ReadLong(Sys3Pointer)
-			Btl0 = ReadLong(Btl0Pointer)
-			Slot1 = 0x2A22FD8
-			ConsolePrint('Epic Games Global')
-		elseif ReadByte(0x56668E) == 0xFF then --Steam Global
-			Platform = 'PC-Steam'
-			Now = 0x0717008
-			Save = 0x09A9830
-			Obj0Pointer = 0x2A24FB0
-			Sys3Pointer = 0x2AE5DD0
-			Btl0Pointer = 0x2AE5DD8
-			Cntrl = 0x2A17168
-			Obj0 = ReadLong(Obj0Pointer)
-			Sys3 = ReadLong(Sys3Pointer)
-			Btl0 = ReadLong(Btl0Pointer)
-			Slot1 = 0x2A23518
-			ConsolePrint('Steam Global')
-		else
-			canExecute = false
-			ConsolePrint('KH2 not detected, not running script')
-		end
+--[[if not StaticPointersLoaded then
+    Obj0 = ReadPointer(kh2lib.Obj0Pointer)
+    Sys3 = ReadPointer(kh2lib.Sys3Pointer)
+    Btl0 = ReadPointer(kh2lib.Btl0Pointer)
+    StaticPointersLoaded = true
+end]]--
+
+function _OnFrame()
+	--Get anchor addresses
+	if not CanExecute
+		then return
 	else
-		ConsolePrint('KH2 not detected, not running script')
+		World  = ReadByte(Now+0x00)
+		Room   = ReadByte(Now+0x01)
+		Place  = ReadShort(Now+0x00)
+		Door   = ReadShort(Now+0x02)
+		Map    = ReadShort(Now+0x04)
+		Btl    = ReadShort(Now+0x06)
+		Evt    = ReadShort(Now+0x08)
+		Cheats()
 	end
 end
 

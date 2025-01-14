@@ -15,40 +15,26 @@ local lastDriveMeter = 0
 
 --Set Initial Values
 function _OnInit()
-	GameVersion = 0
+    kh2libstatus, kh2lib = pcall(require, "kh2lib")
+    if not kh2libstatus then
+        print("ERROR (GoA): KH2-Lua-Library mod is not installed")
+        CanExecute = false
+        return
+    end
+
+    CanExecute = kh2lib.CanExecute
+    if not CanExecute then
+        return
+    end
+
+	Now = kh2lib.Now
+	Save = kh2lib.Save
+	Cntrl = kh2lib.Cntrl
+	BtlTyp = kh2lib.BtlTyp
+	Slot1 = kh2lib.Slot1
+	print('BE Anti-Cheese Loaded')
 end
 
-function GetVersion() --Define anchor addresses
-	if (GAME_ID == 0xF266B00B or GAME_ID == 0xFAF99301) and ENGINE_TYPE == "ENGINE" then --PCSX2
-		OnPC = false
-		GameVersion = 1
-		Now = 0x032BAE0 --Current Location
-		Save = 0x032BB30 --Save File
-		BtlTyp = 0x1C61958 --Battle Status (Out-of-Battle, Regular, Forced)
-		Slot1 = 0x1C6C750 --Unit Slot 1
-	elseif GAME_ID == 0x431219CC and ENGINE_TYPE == 'BACKEND' then --PC
-		OnPC = true
-		if ReadString(0x09A92F0,4) == 'KH2J' then --EGS
-			GameVersion = 2
-			Now = 0x0716DF8
-			Save = 0x09A92F0
-			BtlTyp = 0x2A10E44
-			Slot1 = 0x2A22FD8
-		elseif ReadString(0x09A9830,4) == 'KH2J' then --Steam Global
-			GameVersion = 3
-			Now = 0x0717008
-			Save = 0x09A9830
-			BtlTyp = 0x2A11384
-			Slot1 = 0x2A23518
-		elseif ReadString(0x09A8830,4) == 'KH2J' then --Steam JP
-			GameVersion = 4
-			Now = 0x0716008
-			Save = 0x09A8830
-			BtlTyp = 0x2A10384
-			Slot1 = 0x2A22518
-		end
-	end
-end
 
 function BitOr(Address,Bit,Abs)
 	WriteByte(Address,ReadByte(Address)|Bit,Abs and OnPC)
