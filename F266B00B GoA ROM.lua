@@ -60,6 +60,7 @@ function _OnInit()
     Menu1    = kh2lib.Menu1
     NextMenu = kh2lib.NextMenu
     MSN = kh2lib.MSN
+	Input = kh2lib.Input 
     ShowAllItemsInShopsFunction = kh2lib.ShowAllItemsInShopsFunction
 
     -- Slot2  = Slot1 - NextSlot
@@ -248,9 +249,9 @@ if Place == 0x1A04 then
 		WriteShort(BAR(ARD,0x05,0x25C),0x779,OnPC) --Radiant Garden
 	end
 end
-if ReadInt(inputAddr) ~= lastInput1 then
+if ReadInt(Input) ~= lastInput1 then
 	lastInput2 = lastInput1
-	lastInput1 = ReadInt(inputAddr)
+	lastInput1 = ReadInt(Input)
 end
 --World Map -> Garden of Assemblage
 if Place == 0x000F then
@@ -307,10 +308,10 @@ if Place == 0x000F then
 	elseif Door == 0x01 then --Twilight Town
 		if ReadByte(Save+0x1CFF) == 8 then --Twilight Town
 			WarpDoor = 0x1C
-			if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x3649) < 3 then
-				WriteByte(Save+0x3649,ReadByte(Save+0x3649)+1)
+			if lastInput2 == 2048 and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and ReadByte(Save+0x3642) < 1 then
+				WriteByte(Save+0x3642,ReadByte(Save+0x3642)+1)
 				WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
-				print("Converted Promise Charm to Visit Unlock - Ice Cream")
+				print("Converted Promise Charm to Visit Unlock - Namine's Sketches")
 			end
 		elseif ReadByte(Save+0x1CFF) == 13 then --Simulated Twilight Town
 			WarpDoor = 0x21
@@ -350,7 +351,7 @@ if World == 4 and (lastWorld == 17) then -- Space Paranoids
 		print("Converted Promise Charm to Visit Unlock - Identity Disk")
 	end
 elseif World == 4 and (lastWorld == 9) then -- 100 Acre Wood
-	if (lastInput2 == 33557504 or lastInput1 == 0) and ReadByte(Save+0x3694) == 1 and (ReadByte(Save+0x3598) >= 1 or ReadByte(Save+0x3598) <= 4) then
+	if (lastInput2 & 33554432 == 33554432 and lastInput2 & 2048 == 2048) and lastInput1 == 0 and ReadByte(Save+0x3694) == 1 and (ReadByte(Save+0x3598) >= 1 or ReadByte(Save+0x3598) <= 4) then
 		WriteByte(Save+0x3598,ReadByte(Save+0x3598)+1)
 		WriteByte(Save+0x3694,ReadByte(Save+0x3694)-1)
 		print("Converted Promise Charm to Visit Unlock - Torn Pages")

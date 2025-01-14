@@ -291,3 +291,35 @@ assets:
     method: areadatascript
     source:
     - name: ard/mu07btl.yml
+# Superior STT
+#sora memt edit
+- name: 03system.bin
+  method: binarc  
+  source:
+  - name: memt
+    method: copy
+    type: List
+    source:
+    - name: memt.list
+  - method: listpatch
+    name: cmd
+    source:
+    - name: CmdList.yml
+      type: cmd
+    type: list
+#Skateboard
+- name: obj/F_TT010.mset
+  method: copy
+  source:
+  - name: obj/F_TT010_SORA.mset
+    type: internal
+- name: obj/F_TT010_ROXAS.mset
+  method: copy
+  source:
+  - name: obj/F_TT010_SORA.mset
+    type: internal
+#Twilight Thorn
+- method: copy
+  name: obj/B_EX100.mset
+  source:
+  - name: obj/B_EX100.mset
