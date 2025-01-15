@@ -3502,7 +3502,6 @@ Leon:
   - Yuffie
   - Hercules
   blacklist_source:
-  - Luxord
   - Jafar
   - Storm Rider
   - Shadow Stalker
@@ -3513,22 +3512,7 @@ Leon:
   - Tifa
   - Yuffie
   - Hercules
-  - Sephiroth
-  - Terra
-  - Xigbar
-  - Xaldin
-  - Demyx
-  - Larxene
-  - Marluxia
   - Zexion
-  - Lexaeus
-  - The Experiment
-  - Xemnas  
-  - Roxas
-  - Saix
-  - Vexen
-  - Prison Keeper
-  - Thresholder
   limiter: 0
   pc: 
     tags: 
