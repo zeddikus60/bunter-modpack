@@ -1246,8 +1246,17 @@ Axel I:
   level: 99
   limiter: 0
   gimmick_source:
+  - Demyx
+  - Final Xemnas
+  - Luxord
+  - Marluxia
+  - Roxas
+  - Sephiroth
+  - Vexen
+  - Xemnas
   - Zexion
   tags:
+  - roxas
   - teleport_blocked
   model: B_EX110_SKIRMISH
   msn: TT05_MS404
@@ -1274,6 +1283,7 @@ Axel II:
     bossZ: -165
   tags:
   - organization
+  - roxas
   - teleport_blocked
   - needs_rc
   gimmick_source:
@@ -1285,13 +1295,33 @@ Axel II:
   - Jafar
   - Cloud
   blacklist_source:
+  - Demyx
+  - Demyx OC
   - Final Xemnas
+  - Cerberus
+  - Grim Reaper I
   - Grim Reaper II
   - Groundshaker
   - Hydra
+  - Lexaeus
+  - Luxord
+  - Marluxia
+  - Prison Keeper
+  - Roxas
+  - Saix
+  - Scar
+  - Sephiroth
+  - Shan-Yu
+  - Terra
   - The Beast
   - The Experiment
+  - Thresholder
+  - Twilight Thorn
+  - Vexen
+  - Xaldin
+  - Xemnas
   - Xigbar
+  - Sark
   forced_variations:
     HE19: Axel II
     TT20: Axel II
@@ -2132,8 +2162,10 @@ Demyx:
   - organization
   - no_roxas
   blacklist_destination:
+  - Axel I
   - Groundshaker
   - Scar
+  - Twilight Thorn
   - Cerberus # he might be starting in the sky causing it not to load the fight properly
   - Luxord
   - Grim Reaper II
@@ -3172,6 +3204,10 @@ Hostile Program:
   - Volcano Lord
   - Yuffie
   - Armor Xemnas II
+  - Leon
+  - Twilight Thorn
+  - Axel I
+  - Axel II
   enabled: true
   enmp_index: 0x6A
   hp: 100
@@ -3502,6 +3538,7 @@ Leon:
   - Yuffie
   - Hercules
   blacklist_source:
+  - Luxord
   - Jafar
   - Storm Rider
   - Shadow Stalker
@@ -3512,7 +3549,22 @@ Leon:
   - Tifa
   - Yuffie
   - Hercules
+  - Sephiroth
+  - Terra
+  - Xigbar
+  - Xaldin
+  - Demyx
+  - Larxene
+  - Marluxia
   - Zexion
+  - Lexaeus
+  - The Experiment
+  - Xemnas  
+  - Roxas
+  - Saix
+  - Vexen
+  - Prison Keeper
+  - Thresholder
   limiter: 0
   pc: 
     tags: 
@@ -3612,6 +3664,7 @@ Lexaeus:
   pc:
     unchanged_file_size: false
   blacklist_destination:
+  - Axel II
   - Pete TR
   - Cerberus
   - Hades II
@@ -3622,6 +3675,9 @@ Lexaeus:
   - Scar
   - Thresholder
   - Cloud
+  - Axel I
+  - Leon
+  - Twilight Thorn
   - Grim Reaper II
   - Hydra
   - Hercules
@@ -3724,6 +3780,7 @@ Luxord:
   gimmick_source:
   - Zexion
   blacklist_destination:
+  - Axel I
   - Twilight Thorn
   - Jafar # Die transformation crashes
   - Hostile Program
@@ -3825,6 +3882,8 @@ Marluxia:
   - needs_rc
   - no_roxas
   blacklist_destination:
+  - Axel I
+  - Twilight Thorn
   - Jafar
   - Final Xemnas
   - Cloud
@@ -4707,7 +4766,9 @@ Roxas:
   gimmick_source:
   - Zexion
   blacklist_destination:
+  - Axel I
   - Hades II
+  - Twilight Thorn
   - Hayner # crash on win
   - Setzer
   - Vivi
@@ -4782,6 +4843,9 @@ Saix:
   - organization
   - needs_rc
   - no_roxas
+  blacklist_destination:
+  - Axel I
+  - Twilight Thorn
   can_be_enemy: false
   enabled: true
   enmp_index: 0x86
@@ -5010,6 +5074,9 @@ Sephiroth:
   gimmick_source:
   - Zexion
   blacklist_destination:
+  - Twilight Thorn
+  - Axel I
+  - Axel II
   - Armor Xemnas II # TELEPORTING
   - Groundshaker
   - Oogie Boogie
@@ -5175,7 +5242,10 @@ Shan-Yu:
   tags:
   - no_roxas
   blacklist_destination:
+  - Axel I
   - Seifer
+  - Leon
+  - Twilight Thorn
   level: 99
   limiter: 34
   model: B_MU100
@@ -5589,11 +5659,14 @@ Terra:
   type: boss
   blacklist_destination:
   - Hostile Program # Report of getting stuck in bike loop
+  - Axel I
   - Groundshaker
   - Hades II
   - Jafar
   - Oogie Boogie
   - The Beast
+  - Twilight Thorn
+  - Axel II
   - Riku
   - Cloud
   variations:
@@ -5715,6 +5788,8 @@ Thresholder:
   - Volcano Lord
   - Shadow Stalker
   - Hostile Program # for some reason possessor gets stuck in movement
+  - Axel I
+  - Twilight Thorn
   - Tifa
   obj_id: 353
   size: 2.17
@@ -5918,7 +5993,9 @@ Vexen:
   - organization
   - teleport_blocked
   blacklist_destination:
+  - Axel I
   - Hades II
+  - Twilight Thorn
   - Pete OC II
   enabled: true
   enmp_index: 0xC8
@@ -6096,7 +6173,9 @@ Xaldin:
   blacklist_source:
   - Xigbar
   blacklist_destination:
+  - Axel I
   - Seifer
+  - Twilight Thorn
   - Cloud
   - Jafar
   - Armor Xemnas II
@@ -6135,7 +6214,9 @@ Xemnas:
   gimmick_source:
   - Zexion
   blacklist_destination:
+  - Axel I
   - Riku
+  - Twilight Thorn
   - Prison Keeper
   - Grim Reaper II
   can_be_enemy: false
@@ -6178,6 +6259,8 @@ Xigbar:
   - Grim Reaper I
   - Jafar
   - Seifer
+  - Axel I
+  - Twilight Thorn
   - Scar
   - Volcano Lord
   - Blizzard Lord
@@ -6360,6 +6443,7 @@ Zexion:
   - Final Xemnas
   - Barbossa
   - Grim Reaper II
+  - Cerberus
   - Prison Keeper
   variations:
     Zexion:

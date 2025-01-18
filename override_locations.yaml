@@ -14406,49 +14406,7 @@ Olympus Coliseum:
           - index: 3
             isboss: true
             name: Pete OC II
-          '25':
-          - index: 0
-            isboss: false
-            name: Trick Ghost
-          - index: 1
-            isboss: false
-            name: Hook Bat
-          - index: 2
-            isboss: false
-            name: Trick Ghost
-          - index: 3
-            isboss: false
-            name: Hook Bat
-          - index: 4
-            isboss: false
-            name: Hook Bat
-          - index: 5
-            isboss: false
-            name: Hook Bat
-          '26':
-          - index: 0
-            isboss: false
-            name: Hook Bat
-          - index: 1
-            isboss: false
-            name: Hook Bat
-          - index: 2
-            isboss: false
-            name: Hook Bat
-          '27':
-          - index: 0
-            isboss: false
-            name: Trick Ghost
-          - index: 1
-            isboss: false
-            name: Hook Bat
-          - index: 2
-            isboss: false
-            name: Trick Ghost
-          - index: 3
-            isboss: false
-            name: Hook Bat
-Port Royal:
+          '25': []
   Harbor 01:
     battlescriptadds_br:
       54:
