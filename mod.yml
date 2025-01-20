@@ -291,3 +291,13 @@ assets:
     method: areadatascript
     source:
     - name: ard/mu07btl.yml
+# No Dual-Wield Roxas
+- name: 03system.bin
+  method: binarc  
+  source:
+  - name: memt
+    method: listpatch
+    type: List
+    source:
+    - name: memt.yml
+      type: memt

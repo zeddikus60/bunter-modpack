@@ -1,0 +1,11 @@
+MemtEntries: 
+  - Index: 4 #Specify a memt index to edit. Use a new index to create a new MemtEntry.
+    WorldId: 2
+    CheckStoryFlag: 2254
+    CheckStoryFlagNegation: 2255
+    Unk06: 0
+    Unk08: -13056
+    Unk0A: 60
+    Unk0C: -13056
+    Unk0E: 24
+    Members: [90, 0, 0, 0, 803]
