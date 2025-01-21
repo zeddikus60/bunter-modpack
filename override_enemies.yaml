@@ -4124,7 +4124,7 @@ Pete Cups:
     bossY: -0.0001509865978732705
     bossZ: -250
   can_be_enemy_override: true
-  enabled: false
+  enabled: true
   tags:
   - cups
   enmp_index: 0xB3
@@ -4171,14 +4171,14 @@ Pete OC II:
     bossX: 0
     bossY: 0
     bossZ: -400
-  enabled: true
+  enabled: false
   enmp_index: 0x1A
   hp: 100
   level: 99
   limiter: 20
   model: N_EX760_BTL_HERCULES
   msn: HE08_MS107
-  #replace_as: Pete Cups # Causes crash when Pete does a finger gun to the sky (directing nonexistent enemies?)
+  replace_as: Pete Cups # Causes crash when Pete does a finger gun to the sky (directing nonexistent enemies?)
   msn_replace_allowed: true #was false before Bunter update 2.6
   obj_id: 1724
   size: 1.57
