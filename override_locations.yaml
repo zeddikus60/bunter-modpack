@@ -17812,6 +17812,7 @@ Space Paranoids:
             name: Devastator
       b_40:
         size: 0
+        ignored: true
         aimods:
         - name: NA
           type: enemymod
