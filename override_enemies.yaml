@@ -2443,6 +2443,7 @@ Final Xemnas:
   - Marluxia
   - Xigbar
   - Final Xemnas
+  - Sephiroth
   aimods: 
   - name: B_EX170_LAST/b_ex.bdscript
     type: obj
@@ -3790,6 +3791,8 @@ Luxord:
   - Grim Reaper II
   - Leon
   - Cloud
+  - Pete OC II
+  - Pete TR
   tags:
   - organization
   - solo
@@ -5086,6 +5089,7 @@ Sephiroth:
   - Cloud
   - Riku
   - Jafar
+  - Final Xemnas
   variations:
     Sephiroth:
       vars:
@@ -5755,6 +5759,7 @@ The Experiment:
   - Scar
   - Cloud
   - Jafar
+  - Final Xemnas
   type: boss
   # these might need to be adds or something different
   # I'm also not including them in the size calculation, which might be wrong
